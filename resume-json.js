@@ -73,8 +73,11 @@ function generateResume(data) {
 	
 	// Iterate through skills in order as they are in json. join with a pipe char |
 	
+	
 	Object.keys(data.skills).forEach(category => {
 		const skill = data.skills[category];
+		
+		// there's some clunky shit for AI/ML skills that could use some refactoring. If no AI/ML object exists in JSON, don't show the category. This is for future expansion. 
 		
 		if (category === 'aiMachineLearning') {
 			const aiml = skill;
@@ -169,6 +172,6 @@ function generateResume(data) {
 	container.innerHTML = html;
 }
 
-// Load the resume data when the html page loads
+// Load the resume json data when the html page loads
 
 loadResumeData();
