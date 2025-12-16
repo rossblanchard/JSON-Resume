@@ -1,0 +1,168 @@
+{
+  "personalInfo": {
+    "name": "Ross Blanchard",
+    "address": "6640 SE 16th Ave, Portland, OR 97202",
+    "email": "RossLBlanchard@gmail.com",
+    "phone": "503-449-3305"
+  },
+  "summary": "Results-driven Senior IT Manager with over 25 years of experience in leadership, project management, and technical expertise. Proven track record in IT systems governance, employing ITIL and SLDC best practices, ensuring InfoSec and SOX compliance, and driving business efficiency through value-based outcomes.",
+  "skills": {
+    "leadership": {
+      "label": "Leadership & Management",
+      "items": [
+        "Team Management",
+        "Global Remote Team Leadership",
+        "Mentoring and Staff Development",
+        "Stakeholder Relations",
+        "Vendor Management",
+        "Cross-functional Collaboration",
+        "Recruiting and Retention"
+      ]
+    },
+    "platformsApplications": {
+      "label": "Platforms & Applications",
+      "items": [
+        "Salesforce (Experience Cloud, Service Cloud, Sales Cloud, Field Service Lightning, CPQ/Revenue Cloud, Scheduler)",
+        "Atlassian Suite (Jira, Confluence, Bitbucket, Trello, StatusPage, JSM, Assets)",
+        "NetSuite",
+        "Microsoft SharePoint",
+        "AWS Connect",
+        "Docebo (LMS)",
+        "Copado",
+        "Gearset",
+        "DataDog",
+        "DocuSign",
+        "Conga CLM",
+        "Conga Sign",
+        "Informatica",
+        "Gatekeeper"
+      ]
+    },
+    "frameworksMethodologies": {
+      "label": "Frameworks & Methodologies",
+      "items": [
+        "ITIL",
+        "SDLC",
+        "Agile/Scrum",
+        "DevOps",
+        "Project Management",
+        "Program Management",
+        "Change Management",
+        "Service Management",
+        "Incident Resolution",
+        "Problem Management",
+        "IT Systems Governance"
+      ]
+    },
+    "compliance": {
+      "label": "Compliance & Security",
+      "items": [
+        "SOX Compliance",
+        "InfoSec",
+        "IT Compliance and Security",
+        "Regulatory Standards"
+      ]
+    },
+    "aiMachineLearning": {
+      "label": "AI & Machine Learning",
+      "concepts": [],
+      "technologies": [],
+      "capabilities": []
+    }
+  },
+  "experience": [
+    {
+      "title": "Senior Manager, Information Technology",
+      "company": "HMH",
+      "location": "Boston, MA",
+      "startDate": "4/1/2023",
+      "endDate": "10/7/2025",
+      "responsibilities": [
+        "Led a global remote team in implementing strategic application enhancements, IT compliance/security, and system best practices for multiple Salesforce.com orgs, learning management systems, and contract lifecycle management software",
+        "Optimized IT systems to increase efficiency, security, and disaster prevention/readiness across the organization",
+        "Maintained SOX Compliance through stringent team practices and close management oversight",
+        "Employed best practices for SLDC and DevOps change management",
+        "Implemented robust observability across the organization",
+        "Managed integrations with and directly administered multiple enterprise applications"
+      ]
+    },
+    {
+      "title": "Manager, Enterprise IT Systems",
+      "company": "NWEA",
+      "location": "Portland, OR",
+      "startDate": "1/1/2020",
+      "endDate": "4/1/2023",
+      "responsibilities": [
+        "Managed a team of 10 IT systems experts supporting and enhancing enterprise solutions including CRM, ERP, collaboration, and data platforms",
+        "Ensured IT system compliance with organizational standards and regulations",
+        "Employed ITIL best practices",
+        "Broad ERP, CRM, and other SaaS enterprise systems governance experience",
+        "Recruited and retained high-performers, mentored staff, helped grow the team's expertise and value"
+      ]
+    },
+    {
+      "title": "Technical Project Manager, QA Manager, Scrum Master",
+      "company": "eRep",
+      "location": "Portland, OR",
+      "startDate": "6/1/2018",
+      "endDate": "12/30/2020",
+      "responsibilities": [
+        "Program and project management for B2B2C retail financing/leasing software, merchant services solutions, and API integrations",
+        "Managed iOS point of sale software and psychometric assessment software for human resource teams",
+        "Introduced Agile practices by re-configuring and administering collaboration tools; managing sprints; refining team processes",
+        "Improved customer service through service desk software integration with issue tracking system",
+        "Implemented document/knowledge management",
+        "Coached service team leads on troubleshooting and problem management"
+      ]
+    },
+    {
+      "title": "Vice President, IT Systems Manager",
+      "company": "Umpqua Bank",
+      "location": "Portland, OR",
+      "startDate": "1/1/2005",
+      "endDate": "8/30/2017",
+      "responsibilities": [
+        "Liaison for CIO and seven enterprise divisions: Marketing, Communications, Human Resources, Real Estate/Facilities, Strategic Sourcing, Cultural Enhancement, and Financial Pacific Equipment Leasing",
+        "Managed a team of systems analysts and engineers to design, deploy, support, and administer multiple enterprise-level software solutions",
+        "Shaped customer technology service demands by aligning services with business needs through incident resolution, service request fulfillment, problem management, and new project initiation",
+        "Ensured customer satisfaction by maintaining relationships with and between internal business units, technology service groups, and external vendors to fulfill the needs of the business",
+        "Continuously improved service by conducting routine service reviews and process evaluations with business units and technology providers, improving quality and gaining efficiency where possible",
+        "Lending and Credit systems analysis and development"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Scientific and Technical Communication",
+      "institution": "Michigan Technological University",
+      "location": "Houghton, MI",
+      "graduationDate": null
+    }
+  ],
+  "volunteerism": [
+    {
+      "title": "Director",
+      "organization": "Ford Gallery",
+      "location": "Portland, OR",
+      "startDate": "2015",
+      "endDate": "2019",
+      "description": "Managed a team of curators in a public space gallery with a focus on community building, showcasing works by Portland artists"
+    },
+    {
+      "title": "Board of Directors",
+      "organization": "Oregon Council on Economic Education",
+      "location": "Portland, OR",
+      "startDate": "2005",
+      "endDate": "2010",
+      "description": "Provided educators with resources for teaching economics in Oregon schools"
+    },
+    {
+      "title": "Vice Chairman and Charter Member",
+      "organization": "Harland Financial Solutions Software Advisory Panel",
+      "location": "Portland, OR",
+      "startDate": "2007",
+      "endDate": "2009",
+      "description": null
+    }
+  ]
+}
