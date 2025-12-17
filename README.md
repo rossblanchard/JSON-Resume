@@ -7,7 +7,7 @@ This is a small, simple HTML app that accepts your resume in JSON and produces a
 
 Spin up a temporary web server and browse to the URL:
 
-1. In Terminal, navigate to the directory you put the files in (ex. "resume")
+1. In Terminal, navigate to the directory you put the files in (ex. "Documents/json-resume")
 ```bash
    cd documents/json-resume
 ```
