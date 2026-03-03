@@ -64,6 +64,54 @@ function generateResume(data) {
 	
 	/*
 	
+	Experience Section
+	
+	*/
+	//Old Experience Section
+	
+/*	html += `<div class="section"><h2>Professional Experience</h2>`;
+	data.experience.forEach(job => {
+		const locationStr = job.location ? ` | ${job.location}` : '';
+		html += `
+			<div class="job">
+				<div class="job-header clearfix">
+					<div class="job-title">${job.title} | ${job.company}${locationStr}</div>
+					<div class="date">${job.startDate} - ${job.endDate}</div>
+				</div>
+				<ul>
+		`;
+		job.responsibilities.forEach(resp => {
+			html += `<li>${resp}</li>`;
+		});
+		html += `</ul></div>`;
+	});
+	html += `</div>`;
+	
+	*/
+	
+	/* Updated Experience section to place job title on one line and then company, location, and date on a separate line. ATS have been having issues parsing current format. */
+	
+		html += `<div class="section"><h2>Professional Experience</h2>`;
+	data.experience.forEach(job => {
+		const locationStr = job.location ? ` | ${job.location}` : '';
+		html += `
+			<div class="job">
+				<div class="job-header clearfix">
+					<div class="job-title">${job.title}</div>
+					<div class="job-title">${job.company}${locationStr} | ${job.startDate} - ${job.endDate}</div>
+				</div>
+				<ul>
+		`;
+		job.responsibilities.forEach(resp => {
+			html += `<li>${resp}</li>`;
+		});
+		html += `</ul></div>`;
+	});
+	html += `</div>`;
+	
+	
+	/*
+	
 	 Skills Section
 	 
 	 
@@ -88,13 +136,13 @@ function generateResume(data) {
 			if (hasContent) {
 				html += `<div class="skill-category"><div class="skill-category-name">${skill.label}:</div>`;
 				if (aiml.concepts && aiml.concepts.length > 0) {
-					html += `<div class="skill-list">Concepts: ${aiml.concepts.join(', ')}</div>`;
+					html += `<div class="skill-list"><strong>Concepts:</strong> ${aiml.concepts.join(' <strong>|</strong> ')}</div>`;
 				}
 				if (aiml.technologies && aiml.technologies.length > 0) {
-					html += `<div class="skill-list">Technologies: ${aiml.technologies.join(', ')}</div>`;
+					html += `<div class="skill-list"><strong>Technologies:</strong> ${aiml.technologies.join(' <strong>|</strong> ')}</div>`;
 				}
 				if (aiml.capabilities && aiml.capabilities.length > 0) {
-					html += `<div class="skill-list">Capabilities: ${aiml.capabilities.join(', ')}</div>`;
+					html += `<div class="skill-list"><strong>Capabilities:</strong><ul><li> ${aiml.capabilities.join('</li><li>')}</li></ul></div>`;
 				}
 				html += `</div>`;
 			}
@@ -110,29 +158,6 @@ function generateResume(data) {
 	
 	html += `</div></div>`;
 	
-	/*
-	
-	Experience Section
-	
-	*/
-	
-	html += `<div class="section"><h2>Professional Experience</h2>`;
-	data.experience.forEach(job => {
-		const locationStr = job.location ? ` | ${job.location}` : '';
-		html += `
-			<div class="job">
-				<div class="job-header clearfix">
-					<div class="job-title">${job.title} | ${job.company}${locationStr}</div>
-					<div class="date">${job.startDate} - ${job.endDate}</div>
-				</div>
-				<ul>
-		`;
-		job.responsibilities.forEach(resp => {
-			html += `<li>${resp}</li>`;
-		});
-		html += `</ul></div>`;
-	});
-	html += `</div>`;
 	
 	/*
 	
@@ -159,8 +184,8 @@ function generateResume(data) {
 		html += `
 			<div class="volunteer-item">
 				<div class="vol-header clearfix">
-					<div class="vol-title">${vol.title} | ${vol.organization}${vol.location ? ' | ' + vol.location : ''} </div>
-					<div class="date">${vol.startDate} - ${vol.endDate}</div>
+					<div class="vol-title">${vol.title}</div>
+					<div class="vol-title">${vol.organization}${vol.location ? ' | ' + vol.location : ''} | ${vol.startDate} - ${vol.endDate} </div>
 				</div>
 				<!-- <div class="organization">${vol.organization}${vol.location ? ', ' + vol.location : ''}</div> -->
 				${vol.description ? `<div class="skill-list">${vol.description}</div>` : ''}
